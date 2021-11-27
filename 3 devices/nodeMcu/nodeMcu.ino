@@ -37,7 +37,9 @@ void loop() {
   float watt2 = doc["Watt2"];
 
   String server = "http://penelitianrpla.com/sensor.php?";
-  String datatoweb = "volt=" + String(volt) + "&ampere=" + String(ampere) + "&watt=" + String(watt);
+  String datatoweb = "volt=" + String(volt) + "&ampere=" + String(ampere) + "&watt=" + String(watt) +
+                     "&ampere1=" + String(ampere1) + "&watt1=" + String(watt1) +
+                     "&ampere2=" + String(ampere2) + "&watt2=" + String(watt2);
   String serverPath = server + datatoweb;
   WiFiClient client;
   HTTPClient http;
