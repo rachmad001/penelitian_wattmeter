@@ -1,0 +1,32 @@
+[
+    {
+        "port1": {
+            "voltage": 0,
+            "current": 0,
+            "power": 0,
+            "energy": 0,
+            "frequency": 0,
+            "pf": 0
+        },
+        "port2": {
+            "voltage": 1,
+            "current": 2,
+            "power": 3,
+            "energy": 4,
+            "frequency": 5,
+            "pf": 6
+        },
+        "port3": {
+            "voltage": 6,
+            "current": 5,
+            "power": 4,
+            "energy": 3,
+            "frequency": 2,
+            "pf": 1
+        },
+        "waktu": {
+            "tanggal": "2021\/11\/27",
+            "jam": "11:45:17"
+        }
+    }
+]
